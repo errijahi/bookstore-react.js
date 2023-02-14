@@ -1,0 +1,173 @@
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--bg-secondary);
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.loginRegister {
+  display: flex;
+  flex-direction: row;
+  letter-spacing: 0.5px;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  left: 10px;
+  top: 7px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--text-secondary);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: var(--secondary-orange);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  transform: translateX(-1em);
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: var(--secondary-orange);
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: var(--bg-secondary);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  margin-top: -30px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding-left: 15px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Individual item */
+.link:hover {
+  color: var(--secondary-orange);
+}
+
+.link {
+  color: var(--text-primary);
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.linkNavbar {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-top: 14px;
+  margin-right: 5px;
+}
+
+.linkNavbar:hover {
+  color: var(--secondary-orange);
+}
+
+.link-Navbar-text {
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+  margin-top: 14px;
+  margin-right: 5px;
+}
+
+.dark-ligh-mode-button {
+  position: relative;
+  margin-left: 10px;
+  transform: translateY(10px);
+}
+
+.profile-image {
+  position: absolute;
+  transform: translateX(-40px);
+  margin-top: -7px;
+  width: 35px;
+  height: 32px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 1.5px solid var(--bg-secondary);
+  background-image: url("../../public/avatar-blank.png");
+}
+
+.profile-image:hover {
+  border: 1.5px solid var(--secondary-orange);
+}
+
+.link-title {
+  margin-bottom: 5px;
+}
+
+.link-title-name {
+  margin-bottom: 30px;
+}
+
+.link-title-geners {
+  margin-bottom: 10px;
+}
+
+.margin-space {
+  margin-bottom: 15px;
+}
+
+.link-sideBar {
+  color: var(--text-primary);
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.link-sideBar:hover {
+  color: var(--secondary-orange);
+}
